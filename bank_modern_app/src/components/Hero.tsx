@@ -10,8 +10,15 @@ const Hero = () => (
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph}`}>
           <span className="text-white">20%</span> Discount for {" "}
-          <span className="text-white">1 month</span>
+          <span className="text-white">1 month</span> Account
           </p>
+        </div>
+
+        <div className="flex flex-row justify-between items-center w-full">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
+            The Next <br className="sm:block hidden" />
+            {"  "} <span className="text-gradient">Generation</span> {" "}
+            Payment Method</h1>
         </div>
       </div>
     </section>
