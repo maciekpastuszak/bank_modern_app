@@ -13,6 +13,16 @@ const Footer = () => (
           />
           <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>A new way to make the payments easy, reliable and secure.</p>
         </div>
+
+        <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+          {footerLinks.map((footerLink) => (
+            <div key={footerLink.key} className="flex flex-col ss:my-0 my-4 min-w-[150px]">
+              <h4>
+                {footerLink.title}
+              </h4>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   )
