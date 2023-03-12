@@ -90,6 +90,7 @@ export const stats = [
 
 export const footerLinks = [
   {
+    key: "footerLink1",
     title: "Useful Links",
     links: [
       {
@@ -115,6 +116,7 @@ export const footerLinks = [
     ],
   },
   {
+    key: "footerLink2",
     title: "Community",
     links: [
       {
@@ -140,6 +142,7 @@ export const footerLinks = [
     ],
   },
   {
+    key: "footerLink3",
     title: "Partner",
     links: [
       {
